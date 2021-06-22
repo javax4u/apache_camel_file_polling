@@ -92,7 +92,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.javax4u.camel.StartSocketServerNetty</mainClass>
+                    <mainClass>com.javax4u.camel.StartFilePollingServer</mainClass>
                     <includePluginDependencies>false</includePluginDependencies>
                 </configuration>
             </plugin>
@@ -110,7 +110,7 @@
 						<manifest>
 							<!-- Jar file entry point -->
 							<addClasspath>true</addClasspath>
-							<mainClass>com.javax4u.camel.StartSocketServerNetty</mainClass>
+							<mainClass>com.javax4u.camel.StartFilePollingServer</mainClass>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
 					</archive>
