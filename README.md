@@ -30,6 +30,15 @@ change **allowDefaultCodec=false**  in URI
 	from("netty:tcp://localhost:4209?allowDefaultCodec=false&sync=false")
 
 
+### How will someone download your code and run it, to check whether it is working still or not.
+
+### What if someone wants to make folder paths configurable outside the jar
+
+	There are many ways for alien configuration. Most prominent are java -D system properties and arguments to main method, or if you are using spring then configure in xml file as bean properties and use ClasspathXmlContext for xml file.
+	Or you can use htttp based properties loader like spring boot. It depends upon your program environments.
+	
+### 
+
 [Reference Sites](http://www.masterspringboot.com/various/camel/using-camel-netty-components-to-manage-socket-routes)
 
 
