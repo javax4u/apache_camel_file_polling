@@ -1,9 +1,8 @@
 ## Execution steps
 If you want to run this project directly then follow below steps otherwise import it in Netbeans or other java IDE
 	
-	Open command prompt and run camel_socket/run_server_first.bat
-	Open another command prompt and run camel_socket/run_client_second.bat
-Output
+	Open command prompt and run build_and_run.bat.bat
+	
 
 ![CMD Console](image/image_261.png)
 
